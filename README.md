@@ -9,9 +9,6 @@ This Streamlit app downloads audio from a YouTube video, transcribes the speech 
 Build and run the Docker container with the following commands:
 
 ```bash
-# Build the Docker image
-docker build -t youtube-transcriber-app .
+docker-compose up --build
 
-# Run the Docker container
-docker run -p 8501:8501 youtube-transcriber-app
 Visit http://localhost:8501 to see your Streamlit app running inside Docker!

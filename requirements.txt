@@ -1,0 +1,6 @@
+streamlit
+yt-dlp
+openai-whisper
+langchain
+langchain-google-genai
+python-dotenv
